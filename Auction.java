@@ -48,10 +48,10 @@ public class Auction
         
         for (Lot lot : lots){
             Bid bid=lot.getHighestBid();
-            if(!(bid == null)){
+            if(bid != null){
         System.out.println(lot.toString());}
         
-        else System.out.println("lokh");}
+        else System.out.println("no bidder");}
         
           }
     
